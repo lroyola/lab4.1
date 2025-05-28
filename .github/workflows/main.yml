@@ -12,7 +12,7 @@ jobs:
 
       - name: Hello world action step
         id: hello
-        uses: ./hello-world-docker-action/action.yml
+        uses: ./hello-world-docker-action
         with:
           who-to-greet: 'Mona the Octocat'
 
